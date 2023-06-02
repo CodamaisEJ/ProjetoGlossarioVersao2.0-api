@@ -1,6 +1,7 @@
 {
   "development": {
     "dialect": "mysql",
+     "dialectModule": require('mysql2'),
     "host": "dicgloss.com",
     "username": "dicglo36_uglossd",
     "password": "gloss@90",
@@ -8,6 +9,7 @@
   },
   "test": {
     "dialect": "mysql",
+    "dialectModule": require('mysql2'),
     "host": "dicgloss.com",
     "username": "dicglo36_uglossd",
     "password": "gloss@90",
@@ -15,6 +17,7 @@
   },
   "production": {
     "dialect": "mysql",
+    "dialectModule": require('mysql2'),
     "host": "dicgloss.com",
     "username": "dicglo36_uglossd",
     "password": "gloss@90",
